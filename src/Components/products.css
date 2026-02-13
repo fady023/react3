@@ -1,0 +1,18 @@
+.pros {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.pro {
+    padding: 1%;
+    width: 30%;
+    border: 1px solid black;
+    img {
+        width: 40%;
+    }
+}
+

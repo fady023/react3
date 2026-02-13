@@ -1,0 +1,30 @@
+nav{
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    padding: 0 9%;
+   
+}
+
+nav ul  {
+    width: 60%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    /* gap:9%; */
+
+    a{
+        text-decoration: none;
+        color: black;
+        &:hover{
+            color: white;
+        }
+}
+}
+.active{
+    background-color: lightcoral;
+    /* padding: 5%; */
+}
